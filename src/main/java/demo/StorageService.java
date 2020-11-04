@@ -3,6 +3,7 @@ package demo;
 import java.util.List;
 import java.util.Map;
 
+// Set the logic service
 public interface StorageService {
 
 	public KeyValuePair store(String key, Map<String, Object> value);
